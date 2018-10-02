@@ -1,0 +1,6 @@
+<h1>Lista de canciones</h1>
+    <ul>
+    <% @canciones.each do |cancion| %>
+        <li><%= "cancion: #{cancion.title}" %></li>
+    <% end %>
+    </ul>
